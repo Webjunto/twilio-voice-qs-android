@@ -13,6 +13,7 @@ Get started with Voice on Android:
 
 To get started with the Quickstart application follow these steps. Steps 1-6 will allow you to make a call. The remaining steps 7-8 will enable push notifications using FCM.
 
+NOTE: You'll need a Google Services.JSON file.  You can generate this here:  https://developers.google.com/mobile/add
 
 1. [Open this project in Android Studio](#bullet1)
 2. [Create a Voice API key](#bullet2)
