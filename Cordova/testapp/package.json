@@ -1,5 +1,5 @@
 {
-  "name": "com.jedicreate.testapp",
+  "name": "com.moduscreate.testapp",
   "displayName": "TestApp",
   "version": "1.0.0",
   "description": "A sample Apache Cordova application that responds to the deviceready event.",
@@ -10,12 +10,15 @@
   "author": "Apache Cordova Team",
   "license": "Apache-2.0",
   "dependencies": {
+    "ModusEcho": "file:../modusechoplugin/ModusEcho",
     "cordova-android": "^6.3.0",
-    "cordova-plugin-whitelist": "^1.3.2"
+    "cordova-plugin-whitelist": "^1.3.2",
+    "com-moduscreate-plugins-echo": "../modusechoplugin/ModusEcho"
   },
   "cordova": {
     "plugins": {
-      "cordova-plugin-whitelist": {}
+      "cordova-plugin-whitelist": {},
+      "com-moduscreate-plugins-echo": {}
     },
     "platforms": [
       "android"

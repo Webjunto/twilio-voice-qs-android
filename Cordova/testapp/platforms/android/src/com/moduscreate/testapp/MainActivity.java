@@ -17,7 +17,7 @@
        under the License.
  */
 
-package com.jedicreate.testapp;
+package com.moduscreate.testapp;
 
 import android.os.Bundle;
 import org.apache.cordova.*;
