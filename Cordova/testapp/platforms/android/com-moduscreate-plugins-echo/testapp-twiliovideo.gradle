@@ -1,0 +1,8 @@
+repositories {
+    jcenter()
+    //mavenLocal()
+}
+
+dependencies {
+    compile group: "com.twilio.sdk", name: "twilio", version: "7.11.+"
+}

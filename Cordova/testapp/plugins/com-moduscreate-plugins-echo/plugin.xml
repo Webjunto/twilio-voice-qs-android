@@ -13,5 +13,6 @@
         </config-file>
         <source-file src="src/android/com/moduscreate/plugin/ModusEcho.java" 
         target-dir="src/com/moduscreate/plugin" />
+        <framework src="src/android/com/moduscreate/plugin/twiliovideo.gradle" custom="true" type="gradleReference" />
     </platform>
 </plugin>
